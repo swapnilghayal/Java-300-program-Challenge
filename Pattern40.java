@@ -1,4 +1,4 @@
-public class Pattern39
+public class Pattern40
 {
 	public static void main(String args[])
 	{	
@@ -7,7 +7,7 @@ public class Pattern39
 		{
 			for(int j=i; j<=n; j++)
 			{
-				System.out.print(j);
+				System.out.print((char)(i+64));
 			}
 			System.out.println();
 
