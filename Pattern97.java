@@ -1,4 +1,5 @@
-public class Pattern86
+public class Pattern97
+
 {
 	public static void main(String args[])
 	{
@@ -6,9 +7,9 @@ public class Pattern86
 		for(int i=n; i>=1; i--)
 		{
 				
-			for(int j=i; j>=1; j--)
+			for(int j=n; j>=i; j--)
 			{
-			System.out.print((char)(i+64));
+			System.out.print(j);
 			
 			}
 			System.out.println();
