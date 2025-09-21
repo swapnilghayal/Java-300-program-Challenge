@@ -1,21 +1,19 @@
-class Pattern170
+class Pattern185
 {
 	public static void main(String args[])
 	{
 	int n=5;
-	int count=n;
+	int count =1;
+		
 	for(int i=n; i>=1; i--)
 	{
-	
-	int c=count;
-	for(int j=n; j>=i; j--)
+	for(int j=i; j>=1; j--)
 	{
-	System.out.print(c +"\t");
-	c+=j;
+	System.out.print(count +" \t");
+	count++;
 	}
 	System.out.println();
-	count--;
+	}
 	}
 
-	}
 }
